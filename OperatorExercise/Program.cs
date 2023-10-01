@@ -22,8 +22,9 @@
 
             int a = 17;
             int b= 4;
+            int quotient = a / b;
             int remainder = a % b;
-            Console.WriteLine($" 17 / 4 is  {a / b} remainder {remainder}");
+            Console.WriteLine($" 17 / 4 is  {quotient} remainder {remainder}");
 
             Console.WriteLine("Please enter a number to find the radius.");
             double Radius = Convert.ToDouble((Console.ReadLine()));
